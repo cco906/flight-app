@@ -1,3 +1,12 @@
+import streamlit as st
+
+# 1. 設定網頁標題與圖示
+st.set_page_config(
+    page_title="TX 航空航班查詢系統", page_icon="✈️", layout="centered"
+)
+
+st.title("✈️ TX 航空航班查詢系統")
+st.write("請選擇您的出發地與目的地，系統將自動為您搜尋直飛與經台北 (TPE) 轉機的來回組合。")
 airport = ["TPE","NRT","KIX","ICN","SIN","CGK","BKK","SGN","BCN","DEL","HKG","HNL","LAX","MFM","MXP","PDX","SEA","SFO"]
 while True:
     dep = input("請輸入出發地機場代碼(三碼大寫英文):").upper()
