@@ -557,14 +557,14 @@ else:
         if opt["type"] == "direct":
             f = opt["data"]
             out_labels.append(
-                f"【直飛】{f['flight']} ({f['dep_t']} ➔ {f['arr_t']})"
+                f"【直飛】{f['flight']} ({f['dep_t']} - {f['arr_t']})"
             )
         else:
             t = opt["data"]
             l1, l2 = t["leg1"], t["leg2"]
             out_labels.append(
-                f"【轉機 - 等待 {t['wait_text']}】{l1['flight']} ({l1['dep_t']}~{l1['arr_t']})"
-                f" ➔ {l2['flight']} ({l2['dep_t']}~{l2['arr_t']})"
+                f"【轉機 - 等待 {t['wait_text']}】{l1['flight']} ({l1['dep_t']} - {l1['arr_t']})"
+                f" ➔ {l2['flight']} ({l2['dep_t']} - {l2['arr_t']})"
             )
 
     sel_out_idx = (
@@ -581,14 +581,14 @@ else:
         if opt["type"] == "direct":
             f = opt["data"]
             in_labels.append(
-                f"【直飛】{f['flight']} ({f['dep_t']} ➔ {f['arr_t']})"
+                f"【直飛】{f['flight']} ({f['dep_t']} - {f['arr_t']})"
             )
         else:
             t = opt["data"]
             l1, l2 = t["leg1"], t["leg2"]
             in_labels.append(
-                f"【轉機 - 等待 {t['wait_text']}】{l1['flight']} ({l1['dep_t']}~{l1['arr_t']})"
-                f" ➔ {l2['flight']} ({l2['dep_t']}~{l2['arr_t']})"
+                f"【轉機 - 等待 {t['wait_text']}】{l1['flight']} ({l1['dep_t']} - {l1['arr_t']})"
+                f" ➔ {l2['flight']} ({l2['dep_t']} - {l2['arr_t']})"
             )
 
     sel_in_idx = (
