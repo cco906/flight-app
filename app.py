@@ -447,15 +447,15 @@ flights = [
         "flight": "TX29",
         "dep": "TPE",
         "arr": "HNL",
-        "dep_t": "08:10",
-        "arr_t": "22:55",
+        "dep_t": "17:10",
+        "arr_t": "07:55",
     },
     {
         "flight": "TX30",
         "dep": "HNL",
         "arr": "TPE",
-        "dep_t": "00:55",
-        "arr_t": "05:30",
+        "dep_t": "10:10",
+        "arr_t": "14:45",
     },
     # 歐洲航線
     {
