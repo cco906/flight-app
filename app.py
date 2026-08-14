@@ -264,6 +264,20 @@ flights = [
         "arr_t": "22:10",
     },
     {
+        "flight": "TX538",
+        "dep": "TPE",
+        "arr": "BKK",
+        "dep_t": "20:50",
+        "arr_t": "23:15",
+    },
+    {
+        "flight": "TX539",
+        "dep": "BKK",
+        "arr": "TPE",
+        "dep_t": "02:00",
+        "arr_t": "06:10",
+    },
+    {
         "flight": "TX550",
         "dep": "TPE",
         "arr": "SGN",
