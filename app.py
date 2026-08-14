@@ -23,6 +23,7 @@ airport = [
     "BKK",
     "SGN",
     "MNL",
+    "KUL",
     "DEL",
     "HKG",
     "MFM",
@@ -304,6 +305,20 @@ flights = [
         "arr": "TPE",
         "dep_t": "10:05",
         "arr_t": "11:55",
+    },
+    {
+        "flight": "TX580",
+        "dep": "TPE",
+        "arr": "KUL",
+        "dep_t": "08:15",
+        "arr_t": "12:25",
+    },
+    {
+        "flight": "TX581",
+        "dep": "KUL",
+        "arr": "TPE",
+        "dep_t": "13:55",
+        "arr_t": "18:00",
     },
     {
         "flight": "TX590",
