@@ -33,6 +33,7 @@ airport = [
     "SFO",
     "MXP",
     "BCN",
+    "BNE",
 ]
 
 # 3. TX 航空航班總表
@@ -543,6 +544,20 @@ flights = [
         "arr": "TPE",
         "dep_t": "11:50",
         "arr_t": "04:25",
+    },
+    {
+        "flight": "TX80",
+        "dep": "TPE",
+        "arr": "BNE",
+        "dep_t": "08:50",
+        "arr_t": "18:45",
+    },
+    {
+        "flight": "TX81",
+        "dep": "BNE",
+        "arr": "TPE",
+        "dep_t": "23:45",
+        "arr_t": "05:55",
     },
 ]
 
